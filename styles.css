@@ -2,24 +2,19 @@
 * { 
   box-sizing: border-box;
   font-family: 'Playfair Display';
+  background-color: #020c18;
+  color:white;
 }
 
 body {
   margin-top: 7rem;
-  font-family: system-ui, sans-serif;
-  background-color: #020c18;
-  color:white;
   max-width: 70%;
   margin: 7rem auto;
-
 }
+
 a {
   text-decoration: none;
   color: inherit;
-}
-
-.landing{
-  text-align: center;
 }
 
 header {
@@ -47,6 +42,24 @@ header {
   font-weight: bold;
 }
 
+section {
+  padding: 5rem 0;
+}
+
+section h1 {
+  font-size: 2.5rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.landing{
+  text-align: center;
+} 
+
+.landing h1{
+  text-align:center;
+}
+
 .button {
   display: inline-block;
   padding: 0.8rem 2rem;
@@ -60,19 +73,8 @@ header {
   transform: translateY(-3px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
-section {
-  padding: 5rem 0;
-}
 
-.landing h1{
-  text-align:center;
-}
 
-section h1 {
-  font-size: 2.5rem;
-  text-align: left;
-  margin-bottom: 2rem;
-}
 .about p {
   font-size: 1.2rem;
   max-width: 70%;
